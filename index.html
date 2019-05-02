@@ -12,8 +12,76 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
-
-<body>
-  <h1>My Resume</h1>
+</body>
+  <div class="container">
+    <nav class="nav-bar">
+      <a href="#">Home</a>
+      <a href="#">Skills</a>
+      <a href="#">Work</a>
+      <a href="#">Contact</a>
+    </nav>
+    <section class="intro">
+      <img src="img/profile.jpg" alt="Profile picture">
+      <h1>Penny Lee</h1>
+      <p id="tagline">Web Dev student at Lambda School</p>
+      <br>
+      <p>I have too much biology in my brain so I am trying to make room for coding.</p>
+    </section> 
+    <section class="contact">
+        <h2>Contact me</h2>
+        <p>Phone: 987-654-4321</p>
+        <p>Email: somename@someemail.com</p>
+        <p>Github: <a href="https://github.com/mochibot/" alt="link to my github">mochibot</a></p>
+    </section>
+    <section class="skills">
+      <div class="skills-column">
+        <h2>Skills that I am (slowly) acquiring</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Debugging</li>
+        </ul>
+      </div>
+      <div class="skills-column">
+        <h2>Skills I have but are probably not useful for web dev</h2>
+        <ul>
+          <li>Pipetting</li>
+          <li>Making buffer</li>
+          <li>Lysing cells</li>
+          <li>Breeding mice</li>
+        </ul>
+      </div>
+    </section>
+    <section class="work">
+      <h2>Work History</h2>
+      <table>
+        <tr>
+          <th>Job Title</th>
+          <th>Company</th>
+          <th>Years</th>
+        </tr>
+        <tr>
+          <td>Monitor</td>
+          <td>Some Pharma</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Mad Scientist</td>
+          <td>Another Lab</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Research tech</td>
+          <td>Some Lab</td>
+          <td>1.5</td>
+        </tr>
+      </table>
+    </section>
+    
+    <footer>
+      <p>Copyright Mochibot 2019</p>
+    </footer>
+  </div>
 </body>
 </html>
