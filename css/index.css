@@ -142,12 +142,6 @@ body {
   font-size: 62.5%;
   font-family: 'Rubik', sans-serif;
 }
-.bold-header {
-  font-weight: 600;
-}
-.circle-border {
-  border-radius: 50%;
-}
 .container {
   max-width: 990px;
   width: 100%;
@@ -186,22 +180,23 @@ body {
   }
 }
 .container .intro {
-  margin: 6vh 1vw 0 1vw;
+  margin-top: 6vh;
   background: #cfcece;
-}
-.container .intro h1 {
-  font-size: 5rem;
-  padding-left: 3%;
-}
-.container .intro p {
-  padding-left: 3%;
-  line-height: calc(2.3rem + 0.5vw);
 }
 .container .intro img {
   max-width: 300px;
   width: 100%;
   border-radius: 50%;
   margin: 4vh;
+}
+.container .intro h1 {
+  font-size: 5rem;
+  padding-left: 3%;
+  margin: 1rem 0;
+}
+.container .intro p {
+  padding-left: 3%;
+  line-height: calc(2.3rem + 0.5vw);
 }
 .container .contact {
   margin: 3vh 3vw;
@@ -211,7 +206,7 @@ body {
 .container .contact h2 {
   font-size: 2.4rem;
   font-weight: 600;
-  padding-bottom: 1%;
+  margin: 2vh 0;
 }
 .container .contact h2,
 .container .contact p {
@@ -242,7 +237,7 @@ body {
 .container .skills .skills-column h2 {
   font-size: 2.4rem;
   font-weight: 600;
-  padding-bottom: 2%;
+  margin: 2vh 0;
 }
 .container .skills .skills-column ul {
   list-style-position: inside;
@@ -261,10 +256,9 @@ body {
   margin: 1vh 1vw;
 }
 .container .work h2 {
+  margin: 2vh 0;
   font-size: 2.4rem;
-  line-height: calc(2.3rem + 0.5vw);
   font-weight: 600;
-  padding-bottom: 1%;
 }
 .container .work table {
   margin: 1vh 0;
@@ -281,6 +275,12 @@ body {
   text-align: left;
   background: #5c5c5c;
   color: white;
+}
+.container .work tr:nth-child(odd) {
+  background: #cfcece;
+}
+.container .work tr:hover {
+  background: rgba(243, 195, 38, 0.1);
 }
 .container footer {
   margin: 2vh 0;
